@@ -1,0 +1,1 @@
+Crear un archivo con 2 interfaces, otro archivo con una funcion que reciba por parametro un objeto de tipo de una interfaz y retorne un string con datos del objeto , y otro archivo que haga el llamado de la funcion.

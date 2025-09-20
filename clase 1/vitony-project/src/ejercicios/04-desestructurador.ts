@@ -45,11 +45,13 @@ let frutas = ["Peras", "Manzanas", "Fresas"];
 console.log("Frutas: " + (frutas[3] || "No se ha encontrado."));
 
 const [f1, f2, f3, f4 = "No se ha encontrado"] = frutas;
+f1 + f2 + f3;
 const [,,fruta3] = frutas;
 console.log({f4, fruta3})
 
 // ------------------------------------------------------------------
-interface Product {
+
+export interface Product {
     description: string;
     price: number;
 }
@@ -70,7 +72,7 @@ interface optionTaxes {
     tip?: number, 
 }
 
-function calcTaxes(options: optionTaxes): number[]{
+export function calcTaxes(options: optionTaxes): number[]{
 
     const {products} = options;
     let totalPrice : number = 0;
@@ -99,6 +101,3 @@ console.log(`Precio productos: $${totalPrice}.`)
 console.log(`Impuestos totales: $${totalTaxes}.`)
 console.log(`Propina: $${totalTips}.`)
 console.log(`Grand Total: $${totalPrice+totalTaxes+totalTips}.`)
-
-
-export {};
