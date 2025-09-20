@@ -4,7 +4,8 @@ import './style.css'
 // import './ejercicios/03-funciones.ts'
 // import './ejercicios/04-desestructurador.ts'
 // import './ejercicios/05-import-exports.ts'
-import './ejercicios/06-ejercicio-import-exports/implements'
+// import './ejercicios/06-ejercicio-import-exports/implements'
+import './ejercicios/06-clases.ts'
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML = 'Hamborgruesa';

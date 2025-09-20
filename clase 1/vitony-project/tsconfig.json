@@ -17,7 +17,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    "erasableSyntaxOnly": false, // para clases constructor atajo
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
