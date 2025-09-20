@@ -8,7 +8,9 @@ import './style.css'
 // import './ejercicios/06-clases.ts'
 // import './entregables/clase02/solucion.ts'
 // import './ejercicios/07-genericos.ts'
-import './ejercicios/07-ejercicio.ts'
+// import './ejercicios/07-ejercicio.ts'
+// import './ejercicios/08-encadenamiento.ts'
+import './ejercicios/09-ejercicio.ts'
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML = 'Hamborgruesa';
