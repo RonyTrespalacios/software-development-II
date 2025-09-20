@@ -1,3 +1,5 @@
+node
+
 npm install -g @angular/cli
 
 # Crear proyecto

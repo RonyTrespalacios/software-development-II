@@ -1,11 +1,14 @@
 
-function nombre(a:any, b?:any): void{
-    console.log(a);
-    if(b){
-        console.log(b);
-    }
+function generic_function(a:any, b?:any): void{
+    console.log(`${a},${(b||"")}`);
 }
 
+console.log(generic_function(12,"eyyy"))
+
+/*
+* Suma dos numeros 
+*
+*/
 function sumar(a:number, b:number) : number{
     return a + b;
 }
