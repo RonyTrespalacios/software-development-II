@@ -11,4 +11,8 @@ export const routes: Routes = [
         path: 'car',
         component: CarComponent,
     },
+    {
+        path: '**',
+        redirectTo: '',
+    },
 ];

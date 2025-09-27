@@ -7,3 +7,5 @@ ng new angular-rony-project
 √ Do you want to create a 'zoneless' application without zone.js? No
 √ Which AI tools do you want to configure with Angular best practices? https://angular.dev/ai/develop-with-ai None
 
+ng generate component navbar
+
