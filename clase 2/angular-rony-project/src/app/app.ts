@@ -9,3 +9,6 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   protected readonly title = signal('angular-rony-project');
 }
+
+// ng serve
+// ng serve -o
