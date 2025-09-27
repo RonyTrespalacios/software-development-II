@@ -8,7 +8,7 @@
   <dd>{{ year() }}</dd>
 
   <td>Descripción:</td>
-  <dd></dd>
+  <dd> {{ getCarDescription() }} </dd>
 
   <td>Estudiante:</td>
   <dd>{{ student() }}</dd>
@@ -16,6 +16,7 @@
   <td>Nombre en mayuscula:</td>
   <dd>{{ student().toUpperCase() }}</dd>
   <dd>{{ student() | uppercase }}</dd>
+  <dd>{{ studentCapitalized() }}</dd>
   <dd></dd>
 </dl>
 
