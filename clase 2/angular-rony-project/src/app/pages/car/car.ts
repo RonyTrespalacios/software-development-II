@@ -4,6 +4,7 @@ import {UpperCasePipe} from '@angular/common';
 @Component({
   selector: 'app-car',
   templateUrl: './car.html',
+  styleUrl: './car.css',
   imports: [UpperCasePipe]
 })
 export class CarComponent {
