@@ -1,1 +1,4 @@
-<p>navbar works!</p>
+<nav>
+    <a routerLink="/" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact:true}">Counter</a>
+    <a [routerLink]="['/car']" [routerLinkActive]="'active'">Car</a>    
+</nav>

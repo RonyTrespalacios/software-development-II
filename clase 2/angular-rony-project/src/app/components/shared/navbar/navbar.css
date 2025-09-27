@@ -1,0 +1,21 @@
+/* Estilos del cuerpo para evitar desplazamiento horizontal */
+*{  
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: red;
+}
