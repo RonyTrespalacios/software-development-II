@@ -15,3 +15,6 @@ styles.css
 
 template: 
 https://www.creative-tim.com/twcomponents/component/dashboard-navigation
+
+creating dashboard-page component:
+ng g c gifts/pages/dashboard-page --skip-tests --inline-style
