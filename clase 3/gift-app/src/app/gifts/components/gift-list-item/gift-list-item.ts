@@ -8,4 +8,5 @@ import { Component, input } from '@angular/core';
 })
 export class GiftListItem {
   imageUrl = input.required<string>();
+  imageAlt = input.required<string>();
 }
