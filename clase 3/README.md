@@ -12,3 +12,6 @@ npm install tailwindcss @tailwindcss/postcss postcss --force
 
 styles.css
 @import "tailwindcss";
+
+template: 
+https://www.creative-tim.com/twcomponents/component/dashboard-navigation
