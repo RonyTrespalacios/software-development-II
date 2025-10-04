@@ -16,6 +16,10 @@ export const routes: Routes = [
                 path: "search",
                 loadComponent: () => import('./gifts/pages/search-page/search-page')
             },
+            {
+                path: "**",
+                redirectTo:'trending'
+            }
         ]
     },
 
