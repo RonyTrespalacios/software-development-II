@@ -28,15 +28,8 @@ export class DragonballSuper {
     {id: 4, nombre: 'Yamcha', poder: 500},
   ]);
 
-  powerClass = computed(()=>{
-    return {
-      'text-danger' : true,
-    };
-  })
-
   addCharacter(character : Character) {
     this.characters.update((list)=>[...list, character]);
   }
-
-  
+ 
 }
