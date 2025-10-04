@@ -39,3 +39,6 @@ https://fontawesome.com/icons
 
 create envirorments
 ng g environments
+
+tailwind gallery:
+https://flowbite.com/docs/components/gallery/
