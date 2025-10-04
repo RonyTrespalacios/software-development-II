@@ -4,9 +4,9 @@
 
 <section class="row">
     <div class="col-12 col-sm-6">
-        <dragonball-character-add [characters]="characters()" (newCharacter)="addCharacter($event)"/>    
+        <dragonball-character-add [characters]="dragonballService.characters()" (newCharacter)="dragonballService.addCharacter($event)"/>    
     </div>
     <div class="col-12 col-sm-6">
-        <dragonball-character-list [characters]="characters()" listName="Lista Dragonball"/>
+        <dragonball-character-list [characters]="dragonballService.characters()" listName="Lista Dragonball"/>
     </div>
 </section>
