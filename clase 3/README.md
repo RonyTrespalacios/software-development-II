@@ -32,3 +32,7 @@ ng g c gifts/components/side-menu/side-menu-header --skip-tests --inline-style
 ng g c gifts/components/side-menu/side-menu-options --skip-tests --inline-style
 
 ng g c gifts/components/side-menu --skip-tests --inline-style
+
+importing icons: 
+https://cdnjs.com/libraries/font-awesome,
+https://fontawesome.com/icons
