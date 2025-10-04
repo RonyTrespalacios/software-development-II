@@ -36,3 +36,6 @@ ng g c gifts/components/side-menu --skip-tests --inline-style
 importing icons: 
 https://cdnjs.com/libraries/font-awesome,
 https://fontawesome.com/icons
+
+create envirorments
+ng g environments
