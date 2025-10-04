@@ -26,3 +26,7 @@ creating search-page component:
 ng g c gifts/pages/search-page --skip-tests --inline-style
 
 (edit the .ts file to 'export default class')
+
+creating side-menu components:
+ng g c gifts/components/side-menu/side-menu-header --skip-tests --inline-style
+ng g c gifts/components/side-menu/side-menu-options --skip-tests --inline-style
