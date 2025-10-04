@@ -18,3 +18,11 @@ https://www.creative-tim.com/twcomponents/component/dashboard-navigation
 
 creating dashboard-page component:
 ng g c gifts/pages/dashboard-page --skip-tests --inline-style
+
+creating trending-page component:
+ng g c gifts/pages/trending-page --skip-tests --inline-style
+
+creating search-page component:
+ng g c gifts/pages/search-page --skip-tests --inline-style
+
+(edit the .ts file to 'export default class')
