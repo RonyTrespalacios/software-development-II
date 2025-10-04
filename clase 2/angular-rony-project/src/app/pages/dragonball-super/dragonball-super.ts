@@ -5,11 +5,7 @@ import { CharacterAdd } from "../../components/dragonball/character-add/characte
 import { DragonballService } from '../../services/dragonball-service';
 
 
-interface Character {
-  id : number;
-  nombre: string;
-  poder: number;
-}
+
 
 @Component({
   selector: 'app-dragonball-super',
