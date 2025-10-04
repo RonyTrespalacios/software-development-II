@@ -42,3 +42,7 @@ ng g environments
 
 tailwind gallery:
 https://flowbite.com/docs/components/gallery/
+
+create gift list component: 
+ng g c gifts/components/gift-list --skip-tests --inline-style
+ng g c gifts/components/gift-list-item --skip-tests --inline-style
